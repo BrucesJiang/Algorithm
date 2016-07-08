@@ -51,28 +51,30 @@
 >2. index: | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 >3. value: | 0 | 0 | 1 | 2 | 3 | 4 | 0 | 1 |
 >***
->The fist time we get a partial match is here :
 
+>The fist time we get a partial match is here :
+>***
 >1.  bacbababaabcbab
 >2.  | |
 >3.  |  abababca
+>***
 
-
->This is a partial_match_length of 5. The value at  __table[partial_match_length - 1] (or table[4])__ is 3. That means we get to skip ahead __partial_match_length - table[partial_match_length - 1] (or 5 - table[4] or 5 - 3 or 2)__ characters:
-
+>This is a partial_match_length of 5. The value at  __table[partial_match_length - 1]____(or table[4])__ is 3. That means we get to skip ahead __partial_match_length - table[partial_match_length - 1] ____(or 5 - table[4] or 5 - 3 or 2)__ characters:
+>***
 > 1. // x denotes a skip 
 > 2. 
 > 3. bacbababaabcbab
 > 4. | | | | | | xx | 
 > 5. | | | | | | | | abababca
-
+>***
 >At this point, our pattern is longer than the remaining characters in the text, so we know there’s no match.
 
 ##Codes Implement Based with C/C++ language
 >when coding , a sentry has been added in the first of every array. As a result , we simplify the code .
+
 >###kmp-match
 
-><pre><code>
+>><pre><code>
 int match ( char* P, char* T ) {  //KMP算法
    int* next = buildNext ( P ); //构造next表
    int n = ( int ) strlen ( T ), i = 0; //文本串指针
@@ -89,7 +91,7 @@ int match ( char* P, char* T ) {  //KMP算法
 }</code></pre>
 
 >###kmp-next
-><pre><code>
+>><pre><code>
 int* buildNext ( char* P ) { //构造模式串P的next表
    size_t m = strlen ( P ), j = 0; //“主”串指针
    int* N = new int[m]; //next表
