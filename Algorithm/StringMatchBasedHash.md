@@ -16,7 +16,7 @@
 >>##(1) 递归哈希
 >>>维护一个大小为n的窗口。使用下列公式结算一个起始位置为x,长度为n的窗口的哈希数值。
 >>>***
->>><img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large h_x=(s_xB^n-1+s_x-1B^n-2+ ...+s_x+n-2B^1+s_x+n-1B^0)modP" style="border:none;">
+>>><img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large h_x=(s_xB^{n-1}+s_{x-1}B^{n-2}+ ...+s_{x+n-2}B^1+s_{x+n-1}B^0) mod P" style="border:none;">
 >>>***
 >>>递归哈希主要体现在哈希数值的更新操作，减少重复计算。下面哈希值更新公式。
 >>>***
