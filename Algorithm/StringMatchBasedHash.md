@@ -16,9 +16,7 @@
 >>##(1) 递归哈希
 >>>维护一个大小为n的窗口。使用下列公式结算一个起始位置为x,长度为n的窗口的哈希数值。
 >>>***
->>>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">\\(\Large h_x=(s_xB^{n-1}+s_{x-1}B^{n-2}+ ...+s_{x+n-2}B^1+s_{x+n-1}B^0) mod P)\\)</script>
-
+>>><img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7Bx%7D%20%3D%20(s_%7Bx%7DB%5E%7Bn-1%7D%20%2B%20s_%7Bx-1%7DB%5E%7Bn-2%7D%2B%20...%2Bs_%7Bx%2Bn-2%7DB%5E1%2Bs_%7Bx%2Bn-1%7DB%5E0)%20mod%20P" style="border:none;" />
 >>>***
 >>>递归哈希主要体现在哈希数值的更新操作，减少重复计算。下面哈希值更新公式。
 >>>***
