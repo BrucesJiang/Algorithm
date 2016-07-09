@@ -20,7 +20,7 @@
 >>>***
 >>>递归哈希主要体现在哈希数值的更新操作，减少重复计算。下面哈希值更新公式。
 >>>***
->>><img src="http://www.forkosh.com/mathtex.cgi?  \Large h_x+1 = [(h_x +P- (s_xB^n-1) mod P) mod P *B + s_(x+1)+(n-1)B^0] mod P">
+>>><img src="http://www.forkosh.com/mathtex.cgi? \Large h_x+1 = [(h_x +P- (s_xB^n-1) mod P) mod P *B + s_(x+1)+(n-1)B^0] mod P">
 >>>***
 >>>窗口[x,x+n)与[x+1,x+n+1)有n个元素是相同的,在上面更新公式中我们可以看到，更新就是把首元素的哈希值去掉，然后添加一个新的窗口元素。
 >>***
