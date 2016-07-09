@@ -1,16 +1,15 @@
 #include "stdafx.h"
-#include "Knuth_Morris_Pratt.h"
 
 
-Knuth_Morris_Pratt::Knuth_Morris_Pratt()
+String_Knuth_Morris_Pratt::String_Knuth_Morris_Pratt()
 {
 }
 
 
-Knuth_Morris_Pratt::~Knuth_Morris_Pratt()
+String_Knuth_Morris_Pratt::~String_Knuth_Morris_Pratt()
 {
 }
-int* Knuth_Morris_Pratt::buildNext(char* P) {
+int* String_Knuth_Morris_Pratt::buildNext(char* P) {
 	//int next[KMPMAX];
 	size_t  lenP = strlen(P);
 	int* next = new int[lenP], j = 0;
@@ -29,7 +28,7 @@ int* Knuth_Morris_Pratt::buildNext(char* P) {
 1> 返回-1 失败
 2> 其他 成功
 */
-int Knuth_Morris_Pratt::kmp(char* T, char* P) {
+int String_Knuth_Morris_Pratt::kmp(char* T, char* P) {
 	int lenT = strlen(T), i = 0;
 	int lenP = strlen(P), j = 0;
 	if (lenT < lenP) {
@@ -54,7 +53,7 @@ int Knuth_Morris_Pratt::kmp(char* T, char* P) {
 }
 
 
-void Knuth_Morris_Pratt::testKMP() {
+void String_Knuth_Morris_Pratt::testKMP() {
 	char* P = "abab";
 	char* T = "bacbababaabcbab";
 	printf("输出生成的NEXT表：\n");

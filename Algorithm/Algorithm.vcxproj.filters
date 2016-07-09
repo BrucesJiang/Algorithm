@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\theory">
+      <UniqueIdentifier>{a3fddecc-93c2-49a3-8c65-345f9ca569ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,7 +27,10 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Knuth_Morris_Pratt.h">
+    <ClInclude Include="String_Knuth_Morris_Pratt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="String_Hash_Search.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,8 +41,16 @@
     <ClCompile Include="Algorithm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Knuth_Morris_Pratt.cpp">
+    <ClCompile Include="String_Knuth_Morris_Pratt.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="String_Hash_Search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnderstandingOfKMP.md">
+      <Filter>资源文件\theory</Filter>
+    </None>
   </ItemGroup>
 </Project>

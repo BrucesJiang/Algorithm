@@ -59,7 +59,7 @@
 >3.  |  abababca
 >***
 
->This is a partial_match_length of 5. The value at  __table[partial_match_length - 1]____(or table[4])__ is 3. That means we get to skip ahead __partial_match_length - table[partial_match_length - 1] ____(or 5 - table[4] or 5 - 3 or 2)__ characters:
+>This is a partial_match_length of 5. The value at  __table[partial_match_length - 1]__ __(or table[4]) is 3__. That means we get to skip ahead __partial_match_length - table[partial_match_length - 1] __ __(or 5 - table[4] or 5 - 3 or 2)__ characters:
 >***
 > 1. // x denotes a skip 
 > 2. 

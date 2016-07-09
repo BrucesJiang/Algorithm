@@ -1,9 +1,6 @@
-﻿  stdafx.cpp
-  Knuth_Morris_Pratt.cpp
-f:\source\git_work_space\algorithm\algorithm\knuth_morris_pratt.cpp(33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-f:\source\git_work_space\algorithm\algorithm\knuth_morris_pratt.cpp(34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-f:\source\git_work_space\algorithm\algorithm\knuth_morris_pratt.cpp(62): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  Algorithm.cpp
-  正在生成代码...
+﻿  String_Hash_Search.cpp
+f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(66): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(67): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Debug\Algorithm.exe
   Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Debug\Algorithm.pdb (Full PDB)

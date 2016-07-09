@@ -31,5 +31,6 @@ StdAfx.h, StdAfx.cpp
 
 Knuth_Morris_Prratt.h,Knuth_Morris_Prratt.cpp
     这些文件是MKP算法的定义头文件和实现文件，其中包括测试代码。
-
+    修改这里将头文件以及实现文件的名字加以修改
+	String_Knuth_Prratt.h和Knuth_Morris_Prratt.cpp
 
