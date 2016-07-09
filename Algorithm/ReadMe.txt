@@ -29,8 +29,14 @@ StdAfx.h, StdAfx.cpp
 
 /////////////////////////////////////////////////////////////////////////////
 
-Knuth_Morris_Prratt.h,Knuth_Morris_Prratt.cpp
+（一）字符串处理
+（1）Knuth_Morris_Prratt.h,Knuth_Morris_Prratt.cpp 
     这些文件是MKP算法的定义头文件和实现文件，其中包括测试代码。
     修改这里将头文件以及实现文件的名字加以修改
 	String_Knuth_Prratt.h和Knuth_Morris_Prratt.cpp
+     资源文件UnderstandingOfKMP.md描述了自己的理解以及相关理论
+（2）String_Hash_Search.h,String_Hash_Search.cpp
+     这两个文件是利用HASH原理解决字符串匹配问题，比一般的蛮力算法快，但是效率仍旧低于KMP算法。
+     资源文件StringMatchBasedHash.md是自己对该算法的理解。
+
 
