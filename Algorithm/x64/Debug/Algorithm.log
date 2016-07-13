@@ -1,6 +1,3 @@
-﻿  String_Hash_Search.cpp
-f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(66): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(67): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+﻿  Digraph_SSSP_Dijkstra.cpp
   Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Debug\Algorithm.exe
   Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Debug\Algorithm.pdb (Full PDB)

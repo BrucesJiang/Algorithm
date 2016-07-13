@@ -35,8 +35,20 @@ StdAfx.h, StdAfx.cpp
     修改这里将头文件以及实现文件的名字加以修改
 	String_Knuth_Prratt.h和Knuth_Morris_Prratt.cpp
      资源文件UnderstandingOfKMP.md描述了自己的理解以及相关理论
+2016/7/8
 （2）String_Hash_Search.h,String_Hash_Search.cpp
      这两个文件是利用HASH原理解决字符串匹配问题，比一般的蛮力算法快，但是效率仍旧低于KMP算法。
      资源文件StringMatchBasedHash.md是自己对该算法的理解。
-
+2016/7/9
+（3）Digraph_SSSP_Dijkstra.cpp,Digraph_SSSP_Dijkstra.h
+     这两个问题用于解决单元最短路径问题。在实现的时候出现的问题，这里给出了
+	 一段糟糕的代码提交。
+2016/7/13
+      修改了其中的某一条语句，源文件中有所标注，当下结果运行正确。
+2016/7/13
+（4）Digraph_SSSP_Dijstra_New.cpp,Digraph_SSSP_Dijkstra.h
+     有关Dijkstra算法的新的实现方式，代码思路更加清晰连贯，但是总感觉某些变量用着怪怪的，这种
+	 编码方式需要改正。
+	 资源文件中单源最短路径_Dijkstra.md是自己对于该算法的理解。
+2016/7/13
 

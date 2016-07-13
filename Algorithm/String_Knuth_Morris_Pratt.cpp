@@ -66,3 +66,26 @@ void String_Knuth_Morris_Pratt::testKMP() {
 	int re = kmp(T, P);
 	printf("%d\n", re);
 }
+
+
+void String_Knuth_Morris_Pratt::textBuildNext(){
+	String_Knuth_Morris_Pratt *skmp = new String_Knuth_Morris_Pratt();
+	int i = 0;
+	while (++i <= 20) {
+		srand((unsigned)time(NULL));
+		int j = -1;
+		char  c[100];
+		while (++j < i) {
+			int cur = rand() % 25;
+			char ch = 'a' + cur;
+			c[j] = ch;
+		}
+		for (j= 0; j<i; j++) {
+			printf("%2c ", c[j]);
+		}
+		printf("\n");
+		skmp->buildNext0(c,i);
+		skmp->buildNext1(c,i);
+		printf("\n");
+	}
+}

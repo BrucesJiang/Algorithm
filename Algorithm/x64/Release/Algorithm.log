@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  Algorithm.cpp
+  String_Hash_Search.cpp
+String_Hash_Search.cpp(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+String_Hash_Search.cpp(66): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+String_Hash_Search.cpp(67): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  String_Knuth_Morris_Pratt.cpp
+String_Knuth_Morris_Pratt.cpp(32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+String_Knuth_Morris_Pratt.cpp(33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+String_Knuth_Morris_Pratt.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Release\Algorithm.exe
+  Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Release\Algorithm.pdb (Full PDB)

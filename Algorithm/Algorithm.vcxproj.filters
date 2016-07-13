@@ -33,6 +33,12 @@
     <ClInclude Include="String_Hash_Search.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Digraph_SSSP_Dijkstra.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Digraph_SSSP_Dijkstra_New.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -47,9 +53,18 @@
     <ClCompile Include="String_Hash_Search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Digraph_SSSP_Dijkstra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Digraph_SSSP_Dijkstra_New.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="UnderstandingOfKMP.md">
+      <Filter>资源文件\theory</Filter>
+    </None>
+    <None Include="StringMatchBasedHash.md">
       <Filter>资源文件\theory</Filter>
     </None>
   </ItemGroup>

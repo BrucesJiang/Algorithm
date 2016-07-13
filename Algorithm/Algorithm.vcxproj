@@ -145,6 +145,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Digraph_SSSP_Dijkstra.h" />
+    <ClInclude Include="Digraph_SSSP_Dijkstra_New.h" />
     <ClInclude Include="String_Hash_Search.h" />
     <ClInclude Include="String_Knuth_Morris_Pratt.h" />
     <ClInclude Include="stdafx.h" />
@@ -152,6 +154,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
+    <ClCompile Include="Digraph_SSSP_Dijkstra.cpp" />
+    <ClCompile Include="Digraph_SSSP_Dijkstra_New.cpp" />
     <ClCompile Include="String_Hash_Search.cpp" />
     <ClCompile Include="String_Knuth_Morris_Pratt.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -162,6 +166,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="StringMatchBasedHash.md" />
     <None Include="UnderstandingOfKMP.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
