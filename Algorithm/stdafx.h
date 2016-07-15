@@ -36,3 +36,6 @@ const int KMPMAX = 1000;
 //图搜索 ，单源最短路径算法 Dijkstra算法,改进的漂亮代码
 #define INF 99999999 //用inf(infinity的缩写)存储一个被认为的正无穷值
 #include "Digraph_SSSP_Dijkstra_New.h"
+
+//字符串匹配算法 
+#include "String_Boyer_Moore.h"

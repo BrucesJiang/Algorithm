@@ -20,11 +20,17 @@ int main()
 	/*HASH×Ö·û´®Æ¥Åä²âÊÔ end*/
 
 	/*DijkstraËã·¨²âÊÔ begin*/
-	Digraph_SSSP_Dijkstra *dsd = new Digraph_SSSP_Dijkstra();
-	dsd->testDijkstra();
+	//Digraph_SSSP_Dijkstra *dsd = new Digraph_SSSP_Dijkstra();
+	//dsd->testDijkstra();
 	//Digraph_SSSP_Dijkstra_New *dsdn = new Digraph_SSSP_Dijkstra_New();
 	//dsdn->testDijkstra();
 	/*DijkstraËã·¨²âÊÔ begin*/
+	
+	/*×Ö·û´®Æ¥ÅäËã·¨String_Boyer_MooreËã·¨²âÊÔ begin*/
+	char * pattern = "NEEDLE";
+	String_Boyer_Moore * sbm = new String_Boyer_Moore(pattern);
+	sbm->testStringBoyerMoore();
+	/*×Ö·û´®Æ¥ÅäËã·¨String_Boyer_MooreËã·¨²âÊÔ end*/
 	getchar();
 	getchar();
 	getchar();

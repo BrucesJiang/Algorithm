@@ -39,6 +39,9 @@
     <ClInclude Include="Digraph_SSSP_Dijkstra_New.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="String_Boyer_Moore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,6 +60,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Digraph_SSSP_Dijkstra_New.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="String_Boyer_Moore.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

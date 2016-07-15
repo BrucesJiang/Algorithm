@@ -42,7 +42,8 @@ public:
 		//int lenP = strlen(P);
 		int t = next[0] = -1;
 		while (j < n - 1) {
-			if (0 > t || P[j] == P[t]) next[++j] = ++t;
+			if (0 > t || P[j] == P[t]) next[++j] = ++t; 
+				// 扩展KMP算法修改成这条语句就可以了 ： {j++;t++; next[j]=P[j]!=P[t]?t:next[t];}
 			else t = next[t];
 		}
 		for (int i = 0; i < n; i++) {

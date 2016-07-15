@@ -52,3 +52,8 @@ StdAfx.h, StdAfx.cpp
 	 资源文件中单源最短路径_Dijkstra.md是自己对于该算法的理解。
 2016/7/13
 
+（5）String_Boyer_Moore.cpp、String_Boyer_Moore.h
+       两个文件在于解决字符串匹配算法Boyer-Moore，代码思路很清晰，但是代码写出来仍旧有点怪怪的，
+        可能跟自己写的测试方法有关吧，另外对于该算法的相关理解并没有写好，需要组织一下思路
+2016/7/15
+
