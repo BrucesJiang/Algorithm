@@ -39,3 +39,7 @@ const int KMPMAX = 1000;
 
 //字符串匹配算法 
 #include "String_Boyer_Moore.h"
+
+
+//图算法，Floyd算法，多源最短路径
+#include "Digraph_Floyd.h"

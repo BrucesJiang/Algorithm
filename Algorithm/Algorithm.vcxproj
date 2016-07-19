@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Digraph_Floyd.h" />
     <ClInclude Include="Digraph_SSSP_Dijkstra.h" />
     <ClInclude Include="Digraph_SSSP_Dijkstra_New.h" />
     <ClInclude Include="String_Boyer_Moore.h" />
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
+    <ClCompile Include="Digraph_Floyd.cpp" />
     <ClCompile Include="Digraph_SSSP_Dijkstra.cpp" />
     <ClCompile Include="Digraph_SSSP_Dijkstra_New.cpp" />
     <ClCompile Include="String_Boyer_Moore.cpp" />

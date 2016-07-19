@@ -57,3 +57,7 @@ StdAfx.h, StdAfx.cpp
         可能跟自己写的测试方法有关吧，另外对于该算法的相关理解并没有写好，需要组织一下思路
 2016/7/15
 
+（6)Digraph_Floyd.h、Digraph_Floyd.cpp
+    两个文件描解决图的多源最短路径算法Floyd-Warshall算法的具体实现
+    两外MultipleSourceShortestPath.md是自己对该算法的理解
+2016/7/19

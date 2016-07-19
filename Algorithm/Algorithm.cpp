@@ -27,10 +27,14 @@ int main()
 	/*DijkstraÀ„∑®≤‚ ‘ begin*/
 	
 	/*◊÷∑˚¥Æ∆•≈‰À„∑®String_Boyer_MooreÀ„∑®≤‚ ‘ begin*/
-	char * pattern = "NEEDLE";
-	String_Boyer_Moore * sbm = new String_Boyer_Moore(pattern);
-	sbm->testStringBoyerMoore();
+	//char * pattern = "NEEDLE";
+	//String_Boyer_Moore * sbm = new String_Boyer_Moore(pattern);
+	//sbm->testStringBoyerMoore();
 	/*◊÷∑˚¥Æ∆•≈‰À„∑®String_Boyer_MooreÀ„∑®≤‚ ‘ end*/
+	/*ÕºÀ„∑® FloydÀ„∑®≤‚ ‘ begin*/
+	Digraph_Floyd * df = new Digraph_Floyd(6);
+	df->textFloyd();
+	/*ÕºÀ„∑® FloydÀ„∑®≤‚ ‘ end*/
 	getchar();
 	getchar();
 	getchar();
