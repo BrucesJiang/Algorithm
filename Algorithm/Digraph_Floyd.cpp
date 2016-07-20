@@ -18,6 +18,7 @@ Digraph_Floyd::Digraph_Floyd(int n) {
 			else {
 				a[i][j] = INF;
 			}
+			path[i][j] = -1;
 		}
 	}
 }
@@ -33,6 +34,7 @@ void Digraph_Floyd::floyd(int n) {
 			for (j = 0; j < n; j++) {
 				if (a[i][j] > a[i][k] + a[k][j]) {
 					a[i][j] = a[i][k] + a[k][j];
+					path[i][j] = k;
 				}
 			}
 		}

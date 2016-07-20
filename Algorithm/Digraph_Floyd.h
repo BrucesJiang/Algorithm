@@ -10,6 +10,7 @@ public:
 	void floyd(int n);
 private:
 	int a[MAX][MAX];
+	int path[MAX][MAX]; //记录u,v两点之间最短路径所必须经过的点
 public:
 	void textFloyd();
 };
