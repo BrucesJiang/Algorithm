@@ -43,3 +43,7 @@ const int KMPMAX = 1000;
 
 //图算法，Floyd算法，多源最短路径
 #include "Digraph_Floyd.h"
+
+
+//排序算法，内部排序
+#include "Sort_Algorithm.h"

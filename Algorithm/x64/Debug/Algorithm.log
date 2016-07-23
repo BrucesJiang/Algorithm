@@ -1,3 +1,22 @@
-﻿  Digraph_Floyd.cpp
+﻿  stdafx.cpp
+  String_Knuth_Morris_Pratt.cpp
+f:\source\git_work_space\algorithm\algorithm\string_knuth_morris_pratt.cpp(32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\source\git_work_space\algorithm\algorithm\string_knuth_morris_pratt.cpp(33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\source\git_work_space\algorithm\algorithm\string_knuth_morris_pratt.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  String_Hash_Search.cpp
+f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(66): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\source\git_work_space\algorithm\algorithm\string_hash_search.cpp(67): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  String_Boyer_Moore.cpp
+f:\source\git_work_space\algorithm\algorithm\string_boyer_moore.cpp(21): warning C4156: 未使用数组形式的“delete”删除数组表达式；数组形式被替代
+f:\source\git_work_space\algorithm\algorithm\string_boyer_moore.cpp(21): warning C4154: 删除数组表达式；转换到提供的指针
+f:\source\git_work_space\algorithm\algorithm\string_boyer_moore.cpp(29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\source\git_work_space\algorithm\algorithm\string_boyer_moore.cpp(30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Sort_Algorithm.cpp
+  Digraph_SSSP_Dijkstra_New.cpp
+  Digraph_SSSP_Dijkstra.cpp
+  Digraph_Floyd.cpp
+  Algorithm.cpp
+  正在生成代码...
   Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Debug\Algorithm.exe
   Algorithm.vcxproj -> F:\source\git_work_space\Algorithm\x64\Debug\Algorithm.pdb (Full PDB)

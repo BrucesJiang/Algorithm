@@ -148,6 +148,7 @@
     <ClInclude Include="Digraph_Floyd.h" />
     <ClInclude Include="Digraph_SSSP_Dijkstra.h" />
     <ClInclude Include="Digraph_SSSP_Dijkstra_New.h" />
+    <ClInclude Include="Sort_Algorithm.h" />
     <ClInclude Include="String_Boyer_Moore.h" />
     <ClInclude Include="String_Hash_Search.h" />
     <ClInclude Include="String_Knuth_Morris_Pratt.h" />
@@ -159,6 +160,7 @@
     <ClCompile Include="Digraph_Floyd.cpp" />
     <ClCompile Include="Digraph_SSSP_Dijkstra.cpp" />
     <ClCompile Include="Digraph_SSSP_Dijkstra_New.cpp" />
+    <ClCompile Include="Sort_Algorithm.cpp" />
     <ClCompile Include="String_Boyer_Moore.cpp" />
     <ClCompile Include="String_Hash_Search.cpp" />
     <ClCompile Include="String_Knuth_Morris_Pratt.cpp" />

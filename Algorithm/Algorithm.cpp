@@ -32,9 +32,20 @@ int main()
 	//sbm->testStringBoyerMoore();
 	/*◊÷∑˚¥Æ∆•≈‰À„∑®String_Boyer_MooreÀ„∑®≤‚ ‘ end*/
 	/*ÕºÀ„∑® FloydÀ„∑®≤‚ ‘ begin*/
-	Digraph_Floyd * df = new Digraph_Floyd(6);
-	df->textFloyd();
+	//Digraph_Floyd * df = new Digraph_Floyd(6);
+	//df->textFloyd();
 	/*ÕºÀ„∑® FloydÀ„∑®≤‚ ‘ end*/
+	/*Sort_Algorithm  ≈≈–ÚÀ„∑®≤‚ ‘  begin*/
+	Sort_Algorithm *sa = new Sort_Algorithm();
+	//÷±Ω”≤Â»Î≈≈–Ú
+	//sa->straightInsertionSortTest();
+	//≤Â»Î≈≈–Ú÷Æœ£∂˚≈≈–Ú
+	//sa->shellSortTest();
+	//—°‘Ò≈≈–Ú÷ÆºÚµ•—°‘Ò≈≈–Ú
+	//sa->selectionSortTest();
+	//—°‘Ò≈≈–Ú÷Æ∂˛‘™—°‘Ò≈≈–Ú
+	sa->binarySelectionSortTest();
+	/*Sort_Algorithm  ≈≈–ÚÀ„∑®≤‚ ‘  end*/
 	getchar();
 	getchar();
 	getchar();
