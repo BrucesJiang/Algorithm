@@ -20,6 +20,8 @@ public:
 	void selectionSortTest();
 	void binarySelectionSortTest();
 	void heapSortTest();
+	void bubbleSortTest();
+	void bubbleSortImprovement_1Test();
 public:
 	//直接插入排序
 	void straightInsertionSort(int a[], int n) {
@@ -156,5 +158,36 @@ public:
 	}
 
 	/*选择排序算法之堆排序算法 end*/
+
+	//交换排序之冒泡排序
+	void bubbleSort(int a[], int n) {
+		int i, j;
+		for (i = 0; i < n - 2; i++) {
+			for (j = 0; j < n - 1 - i; j++) {
+				if (a[j] > a[j + 1]) {
+					swap(&a[j], &a[j+1]);
+				}
+			}
+			print(a, n, i);
+		}
+	}
+	//冒泡排序算法改进
+	void bubbleSortImprovement_1(int a[], int n) {
+		int i = n - 1;
+		int j;
+		while (i > 0) {
+			int pos = 0;
+			for (j = 0; j < i; j++) {
+				if (a[j] > a[j + 1]) {
+					pos = j;
+					swap(&a[j], &a[j + 1]);
+				}
+			}
+			print(a, n, i);
+			i = pos;//下一次检测位置
+		}
+	}
+
+	
 };
 

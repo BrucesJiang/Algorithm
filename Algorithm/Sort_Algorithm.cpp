@@ -36,3 +36,13 @@ void Sort_Algorithm::heapSortTest() {
 	heapSort(a, n);
 	print(a, n, n);
 }
+
+void Sort_Algorithm::bubbleSortTest() {
+	bubbleSort(a, n);
+	print(a, n, n);
+}
+
+void Sort_Algorithm::bubbleSortImprovement_1Test() {
+	bubbleSortImprovement_1(a, n);
+	print(a, n, 0);
+}

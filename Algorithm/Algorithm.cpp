@@ -46,7 +46,11 @@ int main()
 	//—°‘Ò≈≈–Ú÷Æ∂˛‘™—°‘Ò≈≈–Ú
 	//sa->binarySelectionSortTest();
 	//—°‘Ò≈≈–Ú÷Æ∂—≈≈–Ú
-	sa->heapSortTest();
+	//sa->heapSortTest();
+	//Ωªªª≈≈–Ú÷Æ√∞≈›≈≈–Ú
+	//sa->bubbleSortTest();
+	//√∞≈›≈≈–Ú∏ƒΩ¯
+	sa->bubbleSortImprovement_1Test();
 	/*Sort_Algorithm  ≈≈–ÚÀ„∑®≤‚ ‘  end*/
 	getchar();
 	getchar();
