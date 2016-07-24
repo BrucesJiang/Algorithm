@@ -22,6 +22,7 @@ public:
 	void heapSortTest();
 	void bubbleSortTest();
 	void bubbleSortImprovement_1Test();
+	void quickSortTest();
 public:
 	//直接插入排序
 	void straightInsertionSort(int a[], int n) {
@@ -188,6 +189,38 @@ public:
 		}
 	}
 
-	
+	/*交换排序之快速排序 begin*/
+	void quickSort(int a[],int low,  int height) {
+		if (low < height) {
+			int povit = partition(a, low, height);
+			quickSort(a, povit + 1, height);
+			quickSort(a, low, povit - 1);
+		}
+	}
+private:
+	int partition(int a[], int l, int r) {
+		int povit = a[l];
+		while (l < r) {
+			while (l < r && povit <= a[r]) {
+				r--;
+			}
+			if (l < r) {
+				a[l++] = a[r];
+				
+			}
+			while (l < r && povit >= a[l]) {
+				l++;
+			}
+			if (l < r) {
+				a[r--] = a[l];
+			}
+		}
+		//注意代码的时候在这里出了错误
+		a[l] = povit;
+		print(a, 8, l);
+		return l;
+	}
+	/*交换排序之快速排序 begin*/
+public:
 };
 

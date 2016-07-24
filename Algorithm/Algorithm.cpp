@@ -50,7 +50,9 @@ int main()
 	//½»»»ÅÅĞòÖ®Ã°ÅİÅÅĞò
 	//sa->bubbleSortTest();
 	//Ã°ÅİÅÅĞò¸Ä½ø
-	sa->bubbleSortImprovement_1Test();
+  	//sa->bubbleSortImprovement_1Test();
+	//½»»»ÅÅĞòÖ®¿ìËÙÅÅĞò
+	sa->quickSortTest();
 	/*Sort_Algorithm  ÅÅĞòËã·¨²âÊÔ  end*/
 	getchar();
 	getchar();

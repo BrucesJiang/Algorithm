@@ -46,3 +46,8 @@ void Sort_Algorithm::bubbleSortImprovement_1Test() {
 	bubbleSortImprovement_1(a, n);
 	print(a, n, 0);
 }
+
+void Sort_Algorithm::quickSortTest() {
+	quickSort(a, 0, n - 1);
+	print(a, n, 0);
+}
