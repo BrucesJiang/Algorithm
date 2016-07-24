@@ -44,7 +44,9 @@ int main()
 	//选择排序之简单选择排序
 	//sa->selectionSortTest();
 	//选择排序之二元选择排序
-	sa->binarySelectionSortTest();
+	//sa->binarySelectionSortTest();
+	//选择排序之堆排序
+	sa->heapSortTest();
 	/*Sort_Algorithm  排序算法测试  end*/
 	getchar();
 	getchar();

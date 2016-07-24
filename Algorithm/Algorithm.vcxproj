@@ -172,6 +172,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="MultipleSourceShortestPath_Floyd-Warshall.md" />
+    <None Include="SingleSourceShortestPath_Dijkstra.md" />
     <None Include="StringMatchBasedHash.md" />
     <None Include="UnderstandingOfKMP.md" />
   </ItemGroup>

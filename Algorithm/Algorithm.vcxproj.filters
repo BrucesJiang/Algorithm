@@ -85,5 +85,11 @@
     <None Include="StringMatchBasedHash.md">
       <Filter>资源文件\theory</Filter>
     </None>
+    <None Include="SingleSourceShortestPath_Dijkstra.md">
+      <Filter>资源文件\theory</Filter>
+    </None>
+    <None Include="MultipleSourceShortestPath_Floyd-Warshall.md">
+      <Filter>资源文件\theory</Filter>
+    </None>
   </ItemGroup>
 </Project>

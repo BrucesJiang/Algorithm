@@ -19,6 +19,7 @@ public:
 	void shellSortTest();
 	void selectionSortTest();
 	void binarySelectionSortTest();
+	void heapSortTest();
 public:
 	//直接插入排序
 	void straightInsertionSort(int a[], int n) {
@@ -95,5 +96,65 @@ public:
 		}
 	}
 
+
+	/*选择排序算法之堆排序算法 begin*/
+	void heapSort(int a[], int n) {
+		int i;
+		//print(a, n, 0);
+		heapBuild(a, n);
+		//printf("是吗？\n");
+		print(a, n, 0);
+		for (i = 0; i < n; i++) {
+			swap(&a[0], &a[n - 1 - i]);
+			heapAdjust(a, n - 1 - i, 0);
+			print(a, n, i);
+		}
+	}
+	void swap(int *a, int *b) {
+		int temp = *a;
+		*a = *b;
+		*b = temp;
+	}
+	/*
+	    已知a[cur,n]出元素a[cur]外均满足大顶堆性质，调整使a[cur]满足
+		参数列表：
+		   a : 元素数组
+		   n : 数组长度
+		   cur:  待调整元素位置
+	*/
+	void heapAdjust(int a[], int n, int cur) {
+		int c = a[cur];
+		//求当前节点的左孩子
+		int child = 2 * cur + 1;
+		while (child < n) {
+			if (child + 1 < n && a[child] < a[child + 1]) {
+				child++;
+			}
+			if (c < a[child]) {
+				a[cur] = a[child];
+				cur = child;
+				child = child * 2 + 1;
+			}
+			else {
+				break;
+			}
+		}	
+		a[cur] = c;
+	}
+
+	/*
+	     已知原序列a,和序列长度n，建立大顶堆
+		   a : 元素数组
+		   n : 数组长度
+	*/
+	void heapBuild(int a[], int n) {
+		int loop = n; //记录循环次数
+		while (--loop >= 0) {
+			heapAdjust(a, n, loop);
+		//	print(a, n, loop);
+		}
+	}
+
+	/*选择排序算法之堆排序算法 end*/
 };
 
