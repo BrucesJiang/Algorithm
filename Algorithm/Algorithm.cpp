@@ -52,7 +52,11 @@ int main()
 	//√∞≈›≈≈–Ú∏ƒΩ¯
   	//sa->bubbleSortImprovement_1Test();
 	//Ωªªª≈≈–Ú÷ÆøÏÀŸ≈≈–Ú
-	sa->quickSortTest();
+	//sa->quickSortTest();
+	//πÈ≤¢≈≈–Úµ¸¥˙
+	sa->mergeSortInterationTest();
+	//πÈ≤¢≈≈–Úµ›πÈ
+	sa->mergeSortRecursiveTest();
 	/*Sort_Algorithm  ≈≈–ÚÀ„∑®≤‚ ‘  end*/
 	getchar();
 	getchar();

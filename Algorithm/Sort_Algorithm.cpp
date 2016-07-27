@@ -51,3 +51,14 @@ void Sort_Algorithm::quickSortTest() {
 	quickSort(a, 0, n - 1);
 	print(a, n, 0);
 }
+
+void Sort_Algorithm::mergeSortInterationTest() {
+	mergeSortInteration(a, n );
+	print(a, n, 0);
+}
+
+void Sort_Algorithm::mergeSortRecursiveTest() {
+	int reg[10];
+	mergeSortRecursive(a,reg,0, n - 1);
+	print(a, n, 0);
+}
